@@ -10,7 +10,7 @@ import path from 'path'
 
 
 dotenv.config();
-const CorsOption={ origin:"https://deepnetsoftfrond-end-coph-7pwgy08jg-self3.vercel.app/"}
+const CorsOption={ origin:"https://deepnetsoftfrond-end-citx.vercel.app/"}
 const app = express();
 app.use(cors(CorsOption));
 const port = process.env.PORT || 5000;
