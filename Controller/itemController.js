@@ -1,5 +1,5 @@
 import { cloudinaryInstance } from '../config/coludinary.js';
-import Item from '../model/itemmodel.js';
+import Item from '../model/ItemModel.js'
 import mongoose from 'mongoose';
 
 
